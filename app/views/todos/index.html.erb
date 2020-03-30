@@ -1,0 +1,10 @@
+<h2>All Todos </h2>
+<% @todos.each do |todo| %>
+    <div>
+    <%= todo.title %>
+    </div>
+    <div>
+    <%= todo.completed %>
+    </div>
+    <% end %>
+   
