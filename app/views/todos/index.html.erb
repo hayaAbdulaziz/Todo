@@ -1,7 +1,8 @@
 <h2>All Todos </h2>
+
 <% @todos.each do |todo| %>
     <div>
-    <%= todo.title %>
+    <%= link_to todo.title , todo %>
     </div>
     <div>
     <%= todo.completed %>
